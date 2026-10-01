@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Signup</legend>
+            <label for="a"> NAME:</label><br>
+            NAME:<input type="text"  id="a" placeholder="Enter Your Name" minlength="3" name="user" maxlength="10" required><br>
+            PASSWORD:<input type="password" name="pass" placeholder="Enter password"><br>
+            Email:<input type="email" name="email" placeholder="enter email" required><br>
+            PHONE:<input type="tel" name="phone" placeholder="enter phone no" required><br>
+           Gender:male<input type="radio" name="gen" value="male" checked>
+                 female<input type="radio" name="gen" value="female" ><br>
+            Hobby:
+                <input type="checkbox" name="hobby" value="cricket" >cricket
+                <input type="checkbox" name="hobby" value="study" >study<br>  
+            D.O.B: <input type="date" max="2027-01-16" min="2026-9-17" ><br>
+            AGE: ,<input type="number" min="2" max="55" step="2" value="18"><br> 
+            volume: <input type="range" min="0" max="100" value="50" step="5"><br>
+            Address:<textarea rows="5" cols="20" placeholder="enter Address" name="Address" ></textarea><br>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="chrome">
+                <option value="firefox">
+                <option value="opera">
+            </datalist><br>
+            <select name="branch">
+                <option value="select" selected>--select branch--</option>
+                <optgroup label="ce">
+                    <option value="cse">cse</option>
+                    <option value="it">it</option>
+                </optgroup>
+                <optgroup label="other">
+                    <option value="ec">EC</option>
+                </optgroup>
+            </select><br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
