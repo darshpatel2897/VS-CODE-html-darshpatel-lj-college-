@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <fieldset> 
+            <legend><b>Scale Ordered Pizza</b></legend> 
+            <table cellpadding="6" cellspacing="1" rules="all" > 
+                <tr align="center"> 
+                    <th>Scale</th> 
+                    <th>Good</th> 
+                    <th>Avg.</th> 
+                    <th>Bad</th> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Quality</b></td> 
+                    <td><input type="radio" name="quality" value="Good" checked></td> 
+                    <td><input type="radio" name="quality" value="Avg"></td> 
+                    <td><input type="radio" name="quality" value="Bad"></td> 
+ </tr> 
+                <tr align="center"> 
+                    <td><b>Quantity</b></td> 
+                    <td><input type="radio" name="quantity" value="Good" checked></td> 
+                    <td><input type="radio" name="quantity" value="Avg"></td> 
+                    <td><input type="radio" name="quantity" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Freshness</b></td> 
+                    <td><input type="radio" name="freshness" value="Good"></td> 
+                    <td><input type="radio" name="freshness" value="Avg" checked></td> 
+                    <td><input type="radio" name="freshness" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Overall <br> Rating</b></td> 
+                    <td colspan="3"> 
+                        0 <input type="range" name="overall_rating" min="0" max="10" value="3"> 10 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td colspan="4" align="center"> <input type="submit" value="Submit"></td> 
+                </tr> 
+            </table> 
+        </fieldset> 
+    </form> 
+</body> 
+</html> 
