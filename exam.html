@@ -374,8 +374,191 @@ Branch</option>
 <td><b>Name:</b></td> 
 <td><input type="text" name="cust_name" placeholder="Enter your Name" 
 size="30"></td> 
-</tr>
+</tr> <tr> 
+                    <td><b>Number:</b></td> 
+                    <td><input type="text" name="cust_phone" placeholder="Enter your Number" 
+size="30"></td> 
+                </tr> 
+                <tr> 
+                    <td><b>Email:</b></td> 
+                    <td><input type="email" name="cust_email" placeholder="Enter your Email" 
+size="30"></td> 
+                </tr> 
+                <tr> 
+                    <td valign="top"><b>Pizza Name:</b></td> 
+                    <td> 
+                        <input type="checkbox" name="pizza" value="Simple veg"> Simple. veg<br> 
+                        <input type="checkbox" name="pizza" value="7 Cheeze"> 7 Cheeze 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td><b>Outlet City:</b></td> 
+                    <td> 
+                        <select name="outlet_city"> 
+                            <option value="">--List of Area--</option> 
+                            <option value="Navrangpura">Navrangpura</option> 
+                            <option value="Maninagar">Maninagar</option> 
+                            <option value="Satellite">Satellite</option> 
+                        </select> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td><b>Order date:</b></td> 
+                    <td><input type="date" name="order_date"></td> 
+                </tr> 
+                <tr> 
+                    <td valign="top"><b>Comment:</b></td> 
+                    <td><textarea name="comment" rows="3" cols="25"></textarea></td> 
+                </tr> 
+            </table> 
+        </fieldset> 
+        <br> 
+        <fieldset> 
+            <legend><b>Scale Ordered Pizza</b></legend> 
+            <table cellpadding="6" cellspacing="0" rules="all"> 
+                <tr align="center"> 
+                    <th>Scale</th> 
+                    <th>Good</th> 
+                    <th>Avg.</th> 
+                    <th>Bad</th> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Quality</b></td> 
+                    <td><input type="radio" name="quality" value="Good" checked></td> 
+                    <td><input type="radio" name="quality" value="Avg"></td> 
+                    <td><input type="radio" name="quality" value="Bad"></td>
+  </tr> 
+                <tr align="center"> 
+                    <td><b>Quantity</b></td> 
+                    <td><input type="radio" name="quantity" value="Good" checked></td> 
+                    <td><input type="radio" name="quantity" value="Avg"></td> 
+                    <td><input type="radio" name="quantity" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Freshness</b></td> 
+                    <td><input type="radio" name="freshness" value="Good"></td> 
+                    <td><input type="radio" name="freshness" value="Avg" checked></td> 
+                    <td><input type="radio" name="freshness" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Overall <br> Rating</b></td> 
+                    <td colspan="3"> 
+                        0 <input type="range" name="overall_rating" min="0" max="10" value="3"> 10 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td colspan="4" align="center"> <input type="submit" value="Submit"></td> 
+                </tr> 
+            </table> 
+        </fieldset> 
+    </form> 
+</body> 
+</html> 
 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Review Form</title>
+</head>
+
+<body>
+
+<form>
+
+<fieldset>
+    <legend>Customer Detail</legend>
+
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your Name">
+    <br><br>
+
+    <label>Number:</label>
+    <input type="text" placeholder="Enter your Number">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your Email">
+    <br><br>
+
+    <label>Pizza Name:</label>
+    <input type="checkbox" name="pizza" value="simple"> Simple veg
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="pizza" value="cheese"> Cheese
+    <br><br>
+
+    <label>Outlet City:</label>
+    <select>
+        <option>--List of Area--</option>
+        <option>Ahmedabad</option>
+        <option>Rajkot</option>
+        <option>Surat</option>
+    </select>
+    <br><br>
+
+    <label>Order date:</label>
+    <input type="date">
+    <br><br>
+
+    <label>Comment:</label>
+    <textarea rows="3" cols="20"></textarea>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Scale Ordered Pizza</legend>
+
+    <table>
+        <tr>
+            <th>Scale</th>
+            <th>Good</th>
+            <th>Avg.</th>
+            <th>Bad</th>
+        </tr>
+
+        <tr>
+            <td>Quality</td>
+            <td><input type="radio" name="quality"></td>
+            <td><input type="radio" name="quality"></td>
+            <td><input type="radio" name="quality"></td>
+        </tr>
+
+        <tr>
+            <td>Quantity</td>
+            <td><input type="radio" name="quantity"></td>
+            <td><input type="radio" name="quantity"></td>
+            <td><input type="radio" name="quantity"></td>
+        </tr>
+
+        <tr>
+            <td>Freshness</td>
+            <td><input type="radio" name="freshness"></td>
+            <td><input type="radio" name="freshness"></td>
+            <td><input type="radio" name="freshness"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <label>Overall Rating:</label>
+    <input type="range" min="0" max="10" value="5">
+    10
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
 
 
 
