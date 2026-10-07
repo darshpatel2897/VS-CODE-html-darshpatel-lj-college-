@@ -1,0 +1,568 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Task-1 My First HTML Page</h1>
+    <a href="https://www.google.com">HOME|ABOUT|contact</a>
+<h2> Welcome to my page</h2><br>
+<pre>This is a <b>bold</b> word, this is<i> italic</i>, and this is <u>underlined.</u></pre>
+<p>you can also <strong>  highlight importance</strong> or emphasize text. </p>
+<pre></pre><span style="background-color:yellow"> Extra Info:</span>this is a sidebar with additional notes.</pre>
+<br>
+<h3><b>About Section</b></h3>
+<p>Here is a <del>deleted</del> word and an<ins> inserted word.</ins></p>
+<p>Water formula: H<sub>2</sub>O and Square: x<sup>2</sup></p>
+<p>Visit <a href="www.Example.com">Visit Example.com</a></p>
+<h2>Lists Example</h2><br>
+<ol type="A" start="3">
+    <li>Item one</li>
+    <li>Item two</li>
+            
+                <ul type="circle">
+                 <li>Sub Item 2.1</li>
+                 <li>Sub Item 2.2</li>        
+                <ol type="i">
+                    <li>DEEP itms 1</li>
+                    <li>DEEP itms 2</li>
+                </ol>
+                </ul>
+
+                <li>Item Three</li>
+
+</ol>
+<footer>
+    <p>© 2025 My First HTML Page</p>
+</footer>
+</body>
+</html> -->
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="1">
+        <li> my name is darsh</li>
+        <li> its study in lj university</li>
+              <ul >
+                <li> unoder list 1</li>
+                <li> unoder list 2</li>
+                 <ol>
+                    <li>oder list</li>
+                    <ul>
+                        <li> unorderc list </li>
+                        <ol>
+                           <li>order list  </li> 
+                            <ul>
+                               <li> unordre list </li> 
+                            </ul>
+                        </ol>
+                    </ul>
+                 </ol>
+
+              </ul>
+        
+        
+    </ol>
+</body>
+</html>
+
+
+ -->
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+       <datalist id="browsers"> 
+            <option value="Chrome" default="chrome"> 
+            <option value="Firefox"> 
+            <option value="Edge"> 
+        </datalist><br><br> </form>    
+<select name="degree_branch" > 
+    <option value="select" selected disabled> Select 
+Branch</option> 
+    <optgroup label="Computer"> 
+        <option value="cse" > CSE </option> 
+        <option value="cst"> CST </option> 
+        <option value="ce"> CE </option> 
+        <option value="it"selected disabled> IT </option> 
+    </optgroup> 
+    <optgroup label="Other"> 
+        <option value="ec"> EC </option> 
+        <option value="civil"> Civil </option> 
+        <option value="Mech"> Mechanical </option> 
+    </optgroup> 
+     <p>Hobbies:</p> 
+        <input type="checkbox" name="hobby" value="music" checked> Music 
+        <input type="checkbox" name="hobby" value="sports"> Sports <br><br>
+        <input type="text" name="username" id="uname" autofocus>
+
+</select>
+    </div>
+</body>
+</html>      -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8" />
+  <title>Pizza Order Feedback</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      background: #fff;
+      width: 100%;
+      max-width: 720px;
+      padding: 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      border-radius: 6px;
+    }
+    h1 { margin: 0 0 12px 0; font-size: 20px; }
+    label { display: block; margin-top: 10px; font-weight: 600; }
+    input[type="text"], input[type="email"], input[type="tel"],
+    select, textarea, input[type="date"], input[type="range"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .inline { display: inline-block; vertical-align: middle; margin-right: 12px; }
+    .checkbox-group label, .radio-group label { font-weight: normal; margin-right: 10px; }
+    table.rating { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table.rating th, table.rating td { border: 1px solid #e0e0e0; padding: 8px; text-align: center; }
+    .actions { margin-top: 14px; }
+    button[type="submit"] {
+      background: #0078d4;
+      color: #fff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button[type="submit"]:hover { background: #005a9e; }
+    @media (max-width:480px) {
+      .container { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pizza Order Feedback</h1>
+
+    <form action="/submit" method="post" autocomplete="on">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="phone">Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your number">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label>Pizza Name</label>
+      <div class="checkbox-group">
+        <label class="inline"><input type="checkbox" name="pizza[]" value="simple_veg"> Simple veg</label>
+        <label class="inline"><input type="checkbox" name="pizza[]" value="7_cheese"> 7 Cheeze</label>
+        <label class="inline"><input type="checkbox" name="pizza[]" value="pepperoni"> Pepperoni</label>
+      </div>
+
+      <label for="city">Outlet City</label>
+      <select id="city" name="city">
+        <option value="">--List of Area--</option>
+        <option value="ahmedabad">Ahmedabad</option>
+        <option value="surat">Surat</option>
+        <option value="vadodara">Vadodara</option>
+      </select>
+
+      <label for="orderdate">Order date</label>
+      <input type="date" id="orderdate" name="orderdate">
+
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" rows="4" placeholder="Write your comments here"></textarea>
+
+      <h2 style="font-size:16px; margin-top:14px;">Scale Ordered Pizza</h2>
+      <table class="rating" aria-label="rating table">
+        <tr>
+          <th>Scale</th>
+          <th>Good</th>
+          <th>Avg.</th>
+          <th>Bad</th>
+        </tr>
+        <tr>
+          <td>Quality</td>
+          <td><input type="radio" name="quality" value="good" checked></td>
+          <td><input type="radio" name="quality" value="avg"></td>
+          <td><input type="radio" name="quality" value="bad"></td>
+        </tr>
+        <tr>
+          <td>Quantity</td>
+          <td><input type="radio" name="quantity" value="good" checked></td>
+          <td><input type="radio" name="quantity" value="avg"></td>
+          <td><input type="radio" name="quantity" value="bad"></td>
+        </tr>
+        <tr>
+          <td>Freshness</td>
+          <td><input type="radio" name="freshness" value="good"></td>
+          <td><input type="radio" name="freshness" value="avg"></td>
+          <td><input type="radio" name="freshness" value="bad"></td>
+        </tr>
+      </table>
+
+      <label for="overall">Overall Rating</label>
+      <input type="range" id="overall" name="overall" min="0" max="10" value="5">
+
+      <div class="actions">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Table Layout Example</title>
+   
+</head>
+<body>
+
+  <table border="1" cellspacing="2"  height="200" width="400" > 
+    <tr>
+      <td>A</td>
+      <td>B</td>    
+      <td>C</td>
+      <td>D</td>
+    </tr>
+
+    <tr>
+      <td rowspan="3">E</td>
+      <td rowspan="3">F</td>
+      <td>AA</td>
+      <td rowspan="2">DD</td>
+    </tr>
+
+    <tr>
+      <td>BB</td>
+    </tr>
+
+    <tr>
+      <td>CC</td>
+      <td>EE</td>   
+    </tr>
+
+    <tr>
+      <td>G</td>
+      <td>H</td>
+      <td>I</td>
+      <td>J</td>
+    </tr>
+  </table>
+
+</body>
+</html> -->
+
+
+
+<table align="center" border="1" cellpadding="5">
+    <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td align="center" rowspan="2" bgcolor="#FFFF99">8:00 a.m.</td>
+        <td align="center" rowspan="2" bgcolor="#9999FF">5:00 p.m.</td>
+        <td align="center">Introduction to FSD</td>
+    </tr>
+    <tr>
+        <td align="center">HTML + CSS</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td align="center" bgcolor="#FFFF99">8:00 a.m.</td>
+        <td align="center" bgcolor="#FFFF99">11:00 a.m.</td>
+        <td align="center" rowspan="2">JS &amp; ES6</td>
+    </tr>
+    <tr>
+        <td align="center" rowspan="2" bgcolor="#FFFF99">11:00 a.m.</td>
+        <td align="center" rowspan="2" bgcolor="#80FF80">2:00 p.m.</td>
+    </tr>
+    <tr>
+        <td align="center" rowspan="2">MERN Stack</td>
+    </tr>
+    <tr>
+        <td align="center" bgcolor="#80FF80">2:00 p.m.</td>
+        <td align="center" bgcolor="#9999FF">5:00 p.m.</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td align="center" bgcolor="#FFFF99">8:00 a.m.</td>
+        <td align="center" bgcolor="#80FF80">12:00 p.m.</td>
+        <td align="center">React Native + Deployment</td>
+    </tr>
+</table>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Food Review Form</title> 
+</head> 
+<body> 
+<hr color="orange" size="4"> 
+<center> 
+<h1><font color="blue">Food Review</font></h1> 
+</center> 
+<hr color="green" size="4"> 
+<form action="submit_review.jsp" method="post"> 
+<fieldset> 
+<legend><b>Customer Detail</b></legend> 
+<table cellpadding="4"> 
+<tr> 
+<td><b>Name:</b></td> 
+<td><input type="text" name="cust_name" placeholder="Enter your Name" 
+size="30"></td> 
+</tr> <tr> 
+                    <td><b>Number:</b></td> 
+                    <td><input type="text" name="cust_phone" placeholder="Enter your Number" 
+size="30"></td> 
+                </tr> 
+                <tr> 
+                    <td><b>Email:</b></td> 
+                    <td><input type="email" name="cust_email" placeholder="Enter your Email" 
+size="30"></td> 
+                </tr> 
+                <tr> 
+                    <td valign="top"><b>Pizza Name:</b></td> 
+                    <td> 
+                        <input type="checkbox" name="pizza" value="Simple veg"> Simple. veg<br> 
+                        <input type="checkbox" name="pizza" value="7 Cheeze"> 7 Cheeze 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td><b>Outlet City:</b></td> 
+                    <td> 
+                        <select name="outlet_city"> 
+                            <option value="">--List of Area--</option> 
+                            <option value="Navrangpura">Navrangpura</option> 
+                            <option value="Maninagar">Maninagar</option> 
+                            <option value="Satellite">Satellite</option> 
+                        </select> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td><b>Order date:</b></td> 
+                    <td><input type="date" name="order_date"></td> 
+                </tr> 
+                <tr> 
+                    <td valign="top"><b>Comment:</b></td> 
+                    <td><textarea name="comment" rows="3" cols="25"></textarea></td> 
+                </tr> 
+            </table> 
+        </fieldset> 
+        <br> 
+        <fieldset> 
+            <legend><b>Scale Ordered Pizza</b></legend> 
+            <table cellpadding="6" cellspacing="0" rules="all"> 
+                <tr align="center"> 
+                    <th>Scale</th> 
+                    <th>Good</th> 
+                    <th>Avg.</th> 
+                    <th>Bad</th> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Quality</b></td> 
+                    <td><input type="radio" name="quality" value="Good" checked></td> 
+                    <td><input type="radio" name="quality" value="Avg"></td> 
+                    <td><input type="radio" name="quality" value="Bad"></td>
+  </tr> 
+                <tr align="center"> 
+                    <td><b>Quantity</b></td> 
+                    <td><input type="radio" name="quantity" value="Good" checked></td> 
+                    <td><input type="radio" name="quantity" value="Avg"></td> 
+                    <td><input type="radio" name="quantity" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Freshness</b></td> 
+                    <td><input type="radio" name="freshness" value="Good"></td> 
+                    <td><input type="radio" name="freshness" value="Avg" checked></td> 
+                    <td><input type="radio" name="freshness" value="Bad"></td> 
+                </tr> 
+                <tr align="center"> 
+                    <td><b>Overall <br> Rating</b></td> 
+                    <td colspan="3"> 
+                        0 <input type="range" name="overall_rating" min="0" max="10" value="3"> 10 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td colspan="4" align="center"> <input type="submit" value="Submit"></td> 
+                </tr> 
+            </table> 
+        </fieldset> 
+    </form> 
+</body> 
+</html> 
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Review Form</title>
+</head>
+
+<body>
+
+<form>
+
+<fieldset>
+    <legend>Customer Detail</legend>
+
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your Name">
+    <br><br>
+
+    <label>Number:</label>
+    <input type="text" placeholder="Enter your Number">
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your Email">
+    <br><br>
+
+    <label>Pizza Name:</label>
+    <input type="checkbox" name="pizza" value="simple"> Simple veg
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="pizza" value="cheese"> Cheese
+    <br><br>
+
+    <label>Outlet City:</label>
+    <select>
+        <option>--List of Area--</option>
+        <option>Ahmedabad</option>
+        <option>Rajkot</option>
+        <option>Surat</option>
+    </select>
+    <br><br>
+
+    <label>Order date:</label>
+    <input type="date">
+    <br><br>
+
+    <label>Comment:</label>
+    <textarea rows="3" cols="20"></textarea>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Scale Ordered Pizza</legend>
+
+    <table  rules="all" cellpadding="6" cellspacing="0">
+        <tr>
+            <th>Scale</th>
+            <th>Good</th>
+            <th>Avg.</th>
+            <th>Bad</th>
+        </tr>
+
+        <tr>
+            <td>Quality</td>
+            <td><input type="radio" name="quality"></td>
+            <td><input type="radio" name="quality"></td>
+            <td><input type="radio" name="quality"></td>
+        </tr>
+
+        <tr>
+            <td>Quantity</td>
+            <td><input type="radio" name="quantity"></td>
+            <td><input type="radio" name="quantity"></td>
+            <td><input type="radio" name="quantity"></td>
+        </tr>
+
+        <tr>
+            <td>Freshness</td>
+            <td><input type="radio" name="freshness"></td>
+            <td><input type="radio" name="freshness"></td>
+            <td><input type="radio" name="freshness"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <label>Overall Rating:</label>
+    <input type="range" min="0" max="10" value="5">
+    10
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+     <input type="checkbox" name="terms" value="agree"> I agree to the terms and conditions
+</fieldset>
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
