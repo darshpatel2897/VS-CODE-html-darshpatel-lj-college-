@@ -1,190 +1,43 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-   <fieldset>
-                    <legend> Rrgistration Detail</legend>
-                         <label for="a"> </label> <br>
-                    Name:<input type="text"   placeholder="enter your name"  minlength="3" maxlength="10" required/>
-
-                    
-   </fieldset>
-   
- </body>
-</html> -->
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
- 
-
-    <table border="1" cellpadding="8" align="center" >
-    <tr align="center" >
-        <th rowspan="3">Day</th>
-        <th colspan="3">Seminar</th>
-    </tr>
-    <tr align="center">
-        <th colspan="2">schedule</th>
-        <th rowspan="2">Topic</th>
-    </tr>
-    <tr align="center">
-      <th> begin</th>
-      <th> end</th>
-    </tr>
-    <tr align="center">
-      <td rowspan="2"> monday</td>
-      <td rowspan="2" bgcolor="skyyellow"> 8:00 a.m</td>
-      <td rowspan="2" bgcolor="skyblue"> 5:00 p.m</td>
-      <td> introduction to XML</td>      
-    </tr>
-    <tr align="center">
-      <td> Validity:DTD and Relax NG</td>
-    
-    </tr>
-    <tr align="center">
-      <td rowspan="3"> Tuesday</td>
-      <td  bgcolor="skyyellow"> 8:00 a.m</td>
-      <td  bgcolor="skyyellow"> 11:00 a.m</td>
-       <td rowspan="3">  X path<hr>XSL Transformations
-    </tr>
-    <tr align="center">
-      <td  bgcolor="skygreen"> 11:00 a.m</td>
-      <td  bgcolor="skyyellow"> 2:00 p.m</td>
-
-    </tr >
-    <tr align="center">
-         <td  bgcolor="skygreen"> 2:00 p.m</td>
-      <td  bgcolor="skyyellow"> 5:00 p.m</td>
-
-    </tr>  
-    <tr align="center">
-      <td> Wednesday</td>
-         <td  bgcolor="skygreen"> 8:00 a.m</td>
-      <td  bgcolor="skyyellow"> 12:00 p.m</td>
-      <td> XSL Formmating Objects</td>
-
-    </tr>
-
-</table>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Number Grid</title>
-</head>
-
-<body>
-
-<table border="1" width="700" height="500">
-
-    <!-- Row 1 -->
-    <tr>
-        <td bgcolor="pink" align="center">0</td>
-        <td align="center">1</td>
-        <td align="center">2</td>
-        <td bgcolor="yellow" align="center">3</td>
-    </tr>
-
-    <!-- Row 2 -->
-    <tr>
-        <td></td>
-
-        <td bgcolor="gray" colspan="2" rowspan="2" align="center">
-            4
-        </td>
-
-        <td></td>
-    </tr>
-
-    <!-- Row 3 -->
-    <tr>
-        <td bgcolor="lightblue" rowspan="2" align="center">
-            5
-        </td>
-
-        <td bgcolor="lightgreen" rowspan="2" align="center">
-            6
-        </td>
-    </tr>
-
-    <!-- Row 4 -->
-    <tr>
-        <td align="center">7</td>
-        <td align="center">8</td>
-    </tr>
-
-</table>
-
-</body>
-</html>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>The Table Example</title>
-</head>
-
-<body>
-
-<table border="1">
-
-    <caption>The Table Example</caption>
-
-    <!-- Heading -->
-    <tr>
-        <th bgcolor="yellow">ID</th>
-        <th>Title</th>
-        <th>Price</th>
-    </tr>
-
-    <!-- 111 and 112 -->
-    <tr>
-        <td bgcolor="yellow" rowspan="2">
-            111<br><br>112
-        </td>
-
-        <td colspan="2" rowspan="2">
-            My first HTM  Rs 530
-            <br><br>
-            My first Rs 490
-        </td>
-    </tr>
-
-    <!-- Empty row because rowspan is used -->
-    <tr>
-    </tr>
-
-    <!-- Total -->
-    <tr>
-        <th bgcolor="yellow" colspan="2">Total</th>
-        <td>Rs 1020</td>
-    </tr>
-
-</table>
-
-</body>
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+  .one { 
+  border-style: solid; 
+  border-color: red; 
+  border-width:5px; 
+} 
+.two { 
+  border-style: solid double;
+border-color: green red; 
+  border-width:10px; 
+}  
+.three { 
+  border-style: dotted solid dashed double; 
+  border-color: blue red green orange; 
+  border-width:7px; 
+}  
+.four { 
+  border:9px double purple; 
+}  
+.five { 
+  border-top:5px dashed rgb(0, 128, 21); 
+} 
+.six { 
+  border-left:6px solid red; 
+} 
+</style> 
+</head> 
+<body> 
+<p class="one">Solid red border with 5px width!</p> 
+<p class="two">Top and Bottom borders (Solid Style green color) and Left and right borders (Double style 
+green color)</p> 
+<p class="three">Top - dotted blue, right - solid red, bottom - dashed green, left- double orange of 7 px 
+width</p> 
+<p class="four">Border Shorthand </p> 
+<p class="five">Border top only </p> 
+<p class="six">Border left only </p> 
+<p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style" 
+property to set the borders first.</p> 
+</body> 
 </html>
